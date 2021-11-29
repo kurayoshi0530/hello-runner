@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*
+Description: original theme
+*/
+/*サイト全体の基準となるCSSを記述*/
+html {
+  font-size: 16px;
+}
+
+body {
+  /*フォントの指定*/
+  font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  /*行間の指定*/
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  /*サイトのデフォルトとなる文字の色を指定*/
+  color: #333;
+}
+
+/*見出しを全て太字で表示 + 文字色を黒に*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */
