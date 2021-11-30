@@ -9,14 +9,6 @@
     //アイキャッチ画像を使用する設定
     add_theme_support('post-thumbnails');
 
-    function my_scripts_method() {
-        wp_enqueue_script(
-            'custom_script',
-            get_template_directory_uri() . '/index.js',
-        );
-    }
-    add_action('wp_enqueue_scripts', 'my_scripts_method');
-
     //Bootstrapを読み込む
     function themebs_enqueue_styles() {
         wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css' );

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/cm_pc.css?<?php echo date('Ymd-Hi'); ?>" type="text/css">
     <!-- リセットCSSファイル読み込み -->
     <link rel=https://qumeru.com/magazine/70"stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- BootStrap読み込み -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- サイトのタイトル（タグに表示される） -->
     <title>hello-runner</title>
     <!-- システム・プラグイン用 -->
@@ -18,6 +20,6 @@
 <body <?php body_class(); ?> >
 <header>
     <div class="header-inner">
-        
+        <p>ヘッダー</p>
     </div> <!-- end header-inner -->
 </header>
