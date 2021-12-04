@@ -19,7 +19,7 @@
 </head>
 <body <?php body_class(); ?> >
 <header>
-    <div class="header-inner">
-        <p>ヘッダー</p>
+    <div class="text-center header-inner">
+        <h1>hello-runner</h1>
     </div> <!-- end header-inner -->
 </header>
