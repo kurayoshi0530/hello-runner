@@ -13,13 +13,27 @@
     <!-- BootStrap読み込み -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- サイトのタイトル（タグに表示される） -->
-    <title>hello-runner</title>
+    <title>HELLO-RUNNER</title>
     <!-- システム・プラグイン用 -->
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
 <header>
-    <div class="text-center header-inner">
-        <h1>hello-runner</h1>
-    </div> <!-- end header-inner -->
+    <div class="container-fluid">
+        <div class="text-center header-inner">
+            <h2>HELLO-RUNNER</h2>
+            <!---------- プルダウンメニュー機能 JavaScriptで実装 ---------->
+            <div class="text-left menu">
+                <p>メニューを選択すると画面が切り替わります</p>
+                <form id="form">
+                    <select name="select">
+                        <option value="#">選択してください</option>
+                        <option value="<?php echo home_url('/signup'); ?>">会員登録ページへ</option> <!-- optionタグで選択肢の一つを作成する valueでurlを指定するとページ遷移する -->
+                        <option value="<?php echo home_url('/inguiry'); ?>" >お問い合わせページへ</option>
+                    </select>
+                </form>
+            </div>
+            <!---------- プルダウン機能 ここまで ---------->
+        </div> <!-- end header-inner -->
+    </div> <!-- end container -->
 </header>

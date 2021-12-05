@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-8 contents">
-            <p>サンプルだよ</p>
+        <div class="col-lg-8 text-center contents">
+            <p>コンテンツ</p>
         </div> <!-- end contents -->
         <div class="col-lg-4 px-0 sidebar"> <!-- px-0で左右の空白（padding）をなくす -->
             <?php get_sidebar(); ?>

@@ -5,3 +5,8 @@
 'use strict';
 
 console.log('testです');
+
+// ---------- プルダウンメニューを選択するとページ遷移 ----------
+document.getElementById('form').select.onchange = function() {
+    location.href = document.getElementById('form').select.value; // formオブジェクトからurlを取得してページ遷移する
+}
